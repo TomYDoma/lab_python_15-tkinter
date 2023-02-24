@@ -20,7 +20,7 @@ def createWindowLab_1():
                 z1 = (cmath.sqrt(2 * b + cmath.sqrt(b * b - 4))) / ((cmath.sqrt(b * b - 4)) + b + 2)
                 z2 = 1 / (cmath.sqrt(b + 2))
                 print("z1 = ", z1, "z2 = ", z2)
-                label_one["text"] = "z1 = ", z1
+                label_one["text"] = "z1 = ", z1 #fd
                 label_two["text"] = "z2 = ", z2
             else:
                 z1 = (sqrt(2 * b + sqrt(b * b - 4))) / ((sqrt(b * b - 4)) + b + 2)
